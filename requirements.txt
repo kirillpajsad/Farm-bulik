@@ -1,0 +1,5 @@
+telethon
+pytesseract
+pillow
+flask
+requests
