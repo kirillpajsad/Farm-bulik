@@ -48,7 +48,7 @@ def self_ping():
             logger.info("✅ Самопинг")
         except:
             pass
-        time.sleep(15)
+        time.sleep(5)
 
 # --- Логика распознавания ---
 def extract_promo_from_image(image_bytes):
