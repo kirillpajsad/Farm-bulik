@@ -1,5 +1,5 @@
 telethon
-easyocr
+pytesseract
 pillow
 opencv-python-headless
 flask
