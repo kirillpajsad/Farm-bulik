@@ -60,7 +60,7 @@ def extract_promo_from_image(image_bytes):
         
         # 3. Адаптивная бинаризация (убирает дым, тени на мыле и делает текст контрастным)
         thresh = cv2.adaptiveThreshold(
-            gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C_1, cv2.THRESH_BINARY, 11, 2
+            gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2
         )
         
         # Конвертируем обратно в формат PIL для Tesseract
